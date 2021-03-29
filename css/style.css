@@ -63,7 +63,7 @@ header a {
 .main-photo-stories-white {
     display: flex;
     flex-direction: column;
-    padding: 0 50px;
+    padding: 10 50px;
 }
 .main-photo-stories-white {
     color: black;
