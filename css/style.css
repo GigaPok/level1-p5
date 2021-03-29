@@ -1,0 +1,193 @@
+/* Basic */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.padding-container {
+    padding: 20px;
+}
+.active {
+    color: #9a9a9a;
+}
+/* Finish Basic */
+
+/* Header */
+
+header,
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img,
+footer img {
+    max-width: 50px;
+}
+header a {
+    color: black;
+}
+
+/* Finish Header */
+
+/* Main */
+
+.main-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.main-wraper-box {
+    flex: 1 1 300px;
+    min-height: 200px;
+    align-items: center;
+    display: flex;
+}
+.main-wraper:first-child,
+.main-wraper:nth-child(2),
+.main-wraper:nth-child(3) {
+    display: flex;
+    align-items: center;
+}
+.main-wraper:first-child,
+.main-wraper:nth-child(3) {
+    background-color: black;
+}
+.main-wraper:nth-child(2) {
+    background-color: #fff;
+}
+
+.main-photo-stories,
+.main-photo-stories-white {
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+.main-photo-stories-white {
+    color: black;
+}
+.main-photo-stories {
+    color: white;
+}
+.main-wraper:first-child :first-child h2,
+.main-wraper:nth-child(3) :first-child h2,
+.main-wraper:nth-child(2) :nth-child(2) h2 {
+    margin-bottom: 20px;
+    padding: 0;
+}
+.main-wraper:first-child :first-child a,
+.main-wraper:nth-child(3) :first-child a,
+.main-wraper:nth-child(2) :nth-child(2) a {
+    margin-top: 30px;
+    color: burlywood;
+}
+i {
+    margin-left: 20px;
+}
+
+.main-wraper img {
+    flex: 2 1 400px;
+    width: 100%;
+}
+
+.galery-boxes,
+.galery-boxes2,
+.galery-boxes3,
+.galery-boxes4 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    padding: 0 6px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    flex: 1 1 200px;
+}
+.galery-boxes {
+    background-image: url(../img/diana.jpg);
+}
+.galery-boxes2 {
+    background-image: url(../img/laura.jpg);
+}
+.galery-boxes3 {
+    background-image: url(../img/nathan.jpg);
+}
+.galery-boxes4 {
+    background-image: url(../img/philipp.jpg);
+}
+hr {
+    width: 100%;
+    color: burlywood;
+}
+.VIEW-THE-STORIES a {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.VIEW-THE-STORIES {
+    margin-bottom: 10px;
+}
+.main-bottom {
+    text-align: center;
+    flex: 1 1 200px;
+    margin-right: 10px;
+}
+.main-bottom:last-of-type {
+    margin-right: 0;
+}
+.main-bottom img {
+    max-height: 100px;
+}
+.main-bottom h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main-last-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: rgb(77, 77, 77);
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 40px;
+}
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: space-between;
+    flex: 1 1 300px;
+    text-align: end;
+}
+.footer-logo a {
+    display: flex;
+    color: black;
+    margin-top: 17px;
+}
+ul {
+    margin-left: 40px;
+}
+ul li {
+    margin-bottom: 17px;
+}
+ul li a {
+    color: black;
+}
+ul li:last-of-type {
+    margin-bottom: 0;
+}
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+.right-footer {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+.Designed {
+    color: chocolate;
+}
